@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <!--<div class="logo">My Resume</div>-->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+
+<div class="resume-container">
+    <div class="left_side">
+        <div class="profileText">
+            <div class="imgbx">
+                <img src="https://t4.ftcdn.net/jpg/02/15/84/43/360_F_215844325_ttX9YiIIyeaR7Ne6EaLLjMAmy4GvPC69.jpg" alt="Profile Picture">
+            </div>
+            <h2>Jinal Patel<br><span>Student</span></h2>
+        </div>
+
+        <div class="contactinfo" id="contact">
+            <h3 class="title">Contact Info</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">000 0000 0000</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="text">jinal6@gmail.com</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                    <span class="text"><a href="https://www.linkedin.com/in/jinal-patel-2b1533318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">www.linkedin.com</a></span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">Surat, Gujarat, India </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contactinfo education" id="education">
+            <h3 class="title">Education</h3>
+            <ul>
+                <li>
+                    <h5>2022-2025</h5>
+                    <h4>Bachelor Degree in Computer Application</h4>
+                    <h4>SDJ International College</h4>
+                </li>
+                <li>
+                    <h5>2021-2022</h5>
+                    <h4>12th Commerce Board (GSEB)</h4>
+                    <h4>Sanskar Bharti Vidhyalaya</h4>
+                </li>
+                <li>
+                    <h5>2019-2020</h5>
+                    <h4>10th Board (GSEB)</h4>
+                    <h4>Sanskar Bharti Vidhyalaya</h4>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contactinfo language">
+            <h3 class="title">Languages</h3>
+            <ul>
+                <li>
+                    <span class="text">English</span>
+                    <span class="percent">
+                        <div style="width: 80%;"></div>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Gujarati</span>
+                    <span class="percent">
+                        <div style="width: 95%;"></div>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">Hindi</span>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right_side">
+        <div class="about" id="profile">
+            <h2 class="title2">Profile</h2>
+            <p>Motivated bachelor in Computer application graduate with an 8.7 GPA from SDJ International College. Proficient in Java, Python, and SQL through academic projects. Seeking an entry-level Software Developer role to apply technical skills and continuously learn.</p>
+            <br>
+            <p>Motivated bachelor in Computer application graduate with an 8.7 GPA from SDJ International College. Proficient in Java, Python, and SQL through academic projects. Seeking an entry-level Software Developer role to apply technical skills and continuously learn.</p>
+        </div>
+
+        <div class="about">
+            <h2 class="title2">Extracurricular Activities</h2>
+            <div class="box">
+                <div class="year_company">
+                    <h5>2019-present</h5>
+                </div>
+                <div class="text">
+                    <h4>Environmental Club</h4>
+                    <p>Participates in a weekly clean-up initiative, contributing to environmental conservation efforts in the community.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="year_company">
+                    <h5>2019-2020</h5>
+                </div>
+                <div class="text">
+                    <h4>Social Service Organization</h4>
+                    <p>Volunteer at local food shelters or community kitchens, helping those in need and giving back to the community.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="year_company">
+                    <h5>2017-2019</h5>
+                </div>
+                <div class="text">
+                    <h4>Health Awareness</h4>
+                    <p>Helps during charity fundraising events, including sponsored runs and bake sales, to support local causes and organizations.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about skills" id="skills">
+            <h2 class="title2">Professional Skills</h2>
+            <div class="box">
+                <h4>HTML</h4>
+                <div class="percent">
+                    <div style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>CSS</h4>
+                <div class="percent">
+                    <div style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>Java</h4>
+                <div class="percent">
+                    <div style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about interest">
+            <h2 class="title2">Interests</h2>
+            <ul>
+                <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+                <li><i class="fa fa-paint-brush" aria-hidden="true"></i>Painting</li>
+                <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+                <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('nav ul');
+        menu.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
